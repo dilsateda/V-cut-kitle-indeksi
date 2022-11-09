@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+
+      double kg, boy;
+
+
+      Scanner imput = new Scanner(System.in);
+      System.out.print("Lütfen boyunuzu giriniz: ");
+      boy = imput.nextDouble();
+
+      System.out.print("Lütfen kilonuzu giriniz: ");
+      kg = imput.nextDouble();
+
+      double indeks = kg/(boy*boy);
+
+
+      System.out.println("Vücut kitle indeksiniz :" + indeks);
+
+
+    }
+}
